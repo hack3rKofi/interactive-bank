@@ -1,0 +1,22 @@
+{
+  "name": "interactivebank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "chalk": "^4.1.2",
+    "concurrently": "^8.2.2",
+    "inquirer": "^9.2.12",
+    "nodemon": "^3.0.1"
+  }
+}
